@@ -1,3 +1,15 @@
+/*!
+A utility to dasherize text strings.
+
+# Use
+
+Accepts arguments as a single string to be dasherized or multiple strings separated by newlines
+from standard input.
+
+```
+dasherize [text-to-dasherize]
+```
+*/
 extern crate regex;
 
 use regex::Regex;
