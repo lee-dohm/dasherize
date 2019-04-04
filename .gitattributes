@@ -1,0 +1,2 @@
+# Don't include script/* files in repo language statistics
+script/* linguist-detectable=false
