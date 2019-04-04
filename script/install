@@ -9,4 +9,4 @@ cd "$(dirname "$0")/.."
 script/bootstrap
 
 cargo build --release
-cargo install --path .
+cargo install --path . --force
