@@ -8,5 +8,4 @@ cd "$(dirname "$0")/.."
 
 script/bootstrap
 
-cargo fmt --all -- --check
-cargo build
+cargo run "$*"
