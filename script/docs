@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# script/docs: Generate documentation for the project
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+script/bootstrap
+
+cargo doc

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# script/install: Build for release and install the binary.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+script/bootstrap
+
+cargo build --release
+cargo install --path .
